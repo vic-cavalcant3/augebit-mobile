@@ -145,6 +145,7 @@ export default function Agendamento() {
   };
 
   return (
+    
     <KeyboardAvoidingView
       style={{ flex: 1 }}
       behavior={Platform.OS === "ios" ? "padding" : "height"}
